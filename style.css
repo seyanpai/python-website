@@ -1,0 +1,221 @@
+body {
+	width: 900px;
+	font-family: sans-serif;
+}
+
+header {
+	background-image: linear-gradient(
+		to bottom,
+		#1f425e,
+		#224867,
+		#254e71,
+		#28557a,
+		#2b5b84
+	);
+	padding: 30px;
+}
+
+header img {
+	height: 50px;
+	display: inline;
+}
+
+button.donate {
+	color: #363636;
+	background-color: #ffd64d;
+	display: inline;
+	font-size: small;
+	padding: 5px;
+	border-radius: 5px;
+	border: 0;
+	vertical-align: 150%;
+	position: relative;
+	left: 285px;
+}
+
+.search {
+	padding: 10px;
+	background-color: #1e2933;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: small;
+	position: relative;
+	left: 290px;
+	vertical-align: 150%;
+}
+
+.search input {
+	padding: 5px;
+}
+
+.search button {
+	color: white;
+	background-color: #2c5f89;
+	padding: 5px;
+	display: inline-block;
+	border-radius: 5px;
+	border: 0px;
+	margin: 0 5px;
+}
+
+.search div {
+	color: white;
+	display: inline;
+	padding-left: 10px;
+	border-left: 1px solid rgb(104, 104, 104);
+}
+
+.navButtons {
+	box-shadow: 0 1px 5px rgb(49, 49, 49);
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	background-image: linear-gradient(
+		to bottom,
+		#3776ab,
+		#3571a4,
+		#326d9d,
+		#306897,
+		#2e6490
+	);
+}
+
+.navButtons div {
+	margin-right: -5px;
+	font-size: smaller;
+	display: inline-block;
+	padding: 10px 15px;
+	border-left: 1px solid rgb(94, 94, 94);
+}
+
+.activeButton {
+	background-color: #2a5981;
+}
+
+header h1 {
+	margin-left: 50px;
+	color: #ffd64d;
+	margin-top: -5px;
+	font-size: large;
+	width: 350px;
+	white-space: pre-line;
+}
+
+header p {
+	margin-left: 50px;
+	color: white;
+	margin-top: -15px;
+	font-size: smaller;
+	width: 350px;
+	white-space: pre-line;
+}
+
+.python-image {
+	height: 230px;
+	position: absolute;
+	left: 450px;
+	top: 131px;
+}
+
+main {
+	text-align: center;
+	padding: 20px;
+}
+
+section.news,
+section.python-use {
+	font-size: small;
+	margin: 0 10px;
+	width: 47%;
+	display: inline-block;
+	border-top: 3px solid #75a8d3;
+	vertical-align: top;
+}
+
+.news h2 {
+	text-align: left;
+	display: inline-block;
+	margin-right: 230px;
+}
+
+.news td {
+	padding: 12.2px 0;
+}
+
+.news td a {
+	margin-left: 10px;
+}
+
+.python-use h2 {
+	text-align: left;
+	display: inline-block;
+	margin-right: 180px;
+}
+
+section table {
+	width: 100%;
+	font-size: 0.7rem;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+tr {
+	border-top: solid thin rgb(207, 207, 207);
+}
+
+main a {
+	text-decoration: none;
+}
+
+.python-use {
+	font-weight: bold;
+}
+
+li {
+	list-style: none;
+	color: rgb(104, 104, 104);
+	background-color: #e6e8ea;
+	display: inline;
+	font-weight: normal;
+}
+
+ul {
+	margin-left: -40px;
+}
+
+footer {
+	background-image: linear-gradient(
+		to bottom,
+		#1f425e,
+		#224867,
+		#254e71,
+		#28557a,
+		#2b5b84
+	);
+	padding: 20px;
+}
+
+footer,
+footer a {
+	text-align: center;
+	font-size: small;
+	color: #7ba2b7;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer a {
+	margin: 0 10px;
+}
+
+footer p a {
+	font-size: xx-small;
+	margin: 10px 5px;
+	text-decoration: underline;
+}
+
+footer p {
+	font-size: xx-small;
+	margin-top: 20px;
+}
